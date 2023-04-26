@@ -1,0 +1,75 @@
+/* Set the background image to an old paper texture, cover the whole screen and use the "Cinzel" font family */
+body {
+  background-image: url("https://e0.pxfuel.com/wallpapers/113/192/desktop-wallpaper-old-paper-paper-vintage.jpg");
+  background-size: cover;
+  font-family: "Cinzel", serif;
+}
+
+.Hangman {
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  color: rgba(21, 22, 15, 0.921);
+  text-align: center;
+  zoom: 1.3;
+}
+/* Style the Hangman image */
+.Hangman img {
+  border: 10px solid white;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.27),
+    0 0 40px rgba(0, 0, 0, 0.06) inset;
+}
+/* Style the Hangman title */
+.Hangman h1 {
+  font-size: 4rem;
+  font-weight: 100;
+  margin-bottom: 0.1em;
+  margin-top: 0;
+}
+/* Style the word to be guessed */
+.Hangman-word {
+  letter-spacing: 1em;
+  margin: 0.4em -1em 0.2em 0;
+  font-size: 2rem;
+}
+/* Style the letter buttons */
+.Hangman-btns {
+  text-align: center;
+  display: inline-block;
+  width: 250px;
+  margin-top: 0;
+}
+/* Style each letter button */
+.Hangman button {
+  border: none;
+  font-family: "Cinzel", serif;
+  font-size: 1rem;
+  cursor: pointer;
+  width: 30px;
+  margin: 5px 2px 2px 2px;
+  letter-spacing: 1px;
+  outline: none;
+  background: #ffc107;
+  color: #fff;
+  box-shadow: 0 6px #ff9800;
+  border-radius: 5px;
+  padding-top: 4px;
+}
+
+#reset {
+  width: 60px;
+  background-color: green;
+}
+
+.Hangman button:hover {
+  background-color: #ff9800;
+}
+
+.Hangman button:disabled {
+  background: #bdbdbd;
+  color: #eeeeee;
+  box-shadow: 0 6px #9e9e9e;
+}

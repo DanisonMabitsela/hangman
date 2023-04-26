@@ -1,0 +1,18 @@
+.GameOverMessage {
+  font-size: 2rem;
+  margin: 20px;
+}
+
+.GameOverMessage button {
+  font-size: 1.2rem;
+  margin: 10px;
+  padding: 10px;
+  border: none;
+  background-color: #2196f3;
+  color: white;
+  cursor: pointer;
+}
+
+.GameOverMessage button:hover {
+  background-color: #0d8bf0;
+}
